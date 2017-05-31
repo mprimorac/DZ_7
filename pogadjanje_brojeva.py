@@ -7,7 +7,7 @@ seed()
 sec = randint(0, 9)
 #Postavljanje brojača pokušaja na 1.
 pokušaj = 1
-#Uvodni spis i forma za unos broja.
+#Uvodni ispis i forma za unos broja.
 print('Igra pogađanja nasumičnih brojeva od 0-9!')
 x = int(input('Upiši broj od 0-9: '))
 #Petlja koja uspoređuje brojeve i inkrementira pokušaje pogađanja.
