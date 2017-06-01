@@ -1,8 +1,7 @@
 '''Program generira skriveni broj, koji korisnik pokušava pogoditi.
 Program je napisan za Python 3.x.'''
 #Generiranje slučajnog broja.
-from random import randint
-from random import seed
+from random import randint, seed
 seed()
 sec = randint(0, 9)
 #Postavljanje brojača pokušaja na 1.
